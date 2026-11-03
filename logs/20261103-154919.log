@@ -1,0 +1,35 @@
+INFO    : Building target course
+INFO    : XSL conversion of /workspaces/MTH202GVSU/source/main.ptx by /root/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /root/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+WARNING : PreTeXt source did not pass schema validation (2 messages); unexpected output may result. Continuing anyway.
+WARNING :   Messages: /workspaces/MTH202GVSU/logs/schema-errors.log
+WARNING :   Line numbers refer to the assembled source: /workspaces/MTH202GVSU/logs/schema-assembled-source.xml
+WARNING :   Run `pretext validate` for a report that names the source files.
+INFO    : discovering source file's directory name: /workspaces/MTH202GVSU/source
+INFO    : verifying and expanding input directory: /workspaces/MTH202GVSU/source/../assets
+INFO    : input directory expanded to absolute path: /workspaces/MTH202GVSU/assets
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /workspaces/MTH202GVSU/output/course.
+INFO    : XSL conversion of /workspaces/MTH202GVSU/source/main.ptx by /root/.ptx/2.52.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /root/.ptx/2.52.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.3.6
+INFO    : Downloading Runestone Services, version 8.3.6
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-denver
+INFO    : converting /workspaces/MTH202GVSU/source/main.ptx to HTML in /ptx-d2e21fie
+INFO    : XSL conversion of /workspaces/MTH202GVSU/source/main.ptx by /root/.ptx/2.52.3/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /root/.ptx/2.52.3/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /ptx-d2e21fie
+INFO    : Removing temporary directory /ptx-g6kwzi5c
+INFO    : 
+Finished build for target course. Run `pretext view course` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

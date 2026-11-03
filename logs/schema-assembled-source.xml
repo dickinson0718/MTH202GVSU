@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  --><pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include common macros etc: -->
+  <docinfo>
+
+  <directories external="../assets"/>
+
+  <!-- macros for defining latex math shortcuts. It is good practice -->
+  <!-- to define these semantically, so that the macro relates to what-->
+  <!-- it defines. -->
+  <macros>
+    \newcommand{\N}{\mathbb N}
+    \newcommand{\Z}{\mathbb Z}
+    \newcommand{\Q}{\mathbb Q}
+    \newcommand{\R}{\mathbb R}
+  </macros>
+
+  <!-- If you put any latex-image elements you can include preambles -->
+  <!-- for those in the next element. -->
+  <latex-image-preamble>
+    \usepackage{tikz, pgfplots}
+    \usetikzlibrary{positioning,matrix,arrows}
+    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+    \usetikzlibrary{decorations.markings}
+  </latex-image-preamble>
+
+  <!-- It is possible to rename elements: -->
+  <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
+
+  <!-- Specify the default type of cross reference: -->
+  <!-- <cross-references text="type-global" /> -->
+
+</docinfo>
+  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+  <book>
+    <title>Course Name (change me)</title>
+
+    <subtitle>MATH xxx Semester 20xx</subtitle>
+
+    <!-- Optional: include frontmatter with author info and date -->
+    <frontmatter xml:id="frontmatter">
+  <bibinfo>
+    <author>
+      <personname>Instructor Lastname</personname>
+      <department>Mathematical Sciences</department>
+      <institution>University of Templates</institution>
+    </author>
+    <date>
+      Last Updated: <today/>
+    </date>
+  </bibinfo>
+
+  <!-- This displays the title page information -->
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+
+</frontmatter>
+
+    <chapter xml:id="course-documents">
+      <title>Course Documents</title>
+
+      <!-- Course syllabus -->
+      <section xml:id="syllabus">
+  <title>Syllabus</title>
+
+  <introduction>
+    <p>
+    </p>
+  </introduction>
+  <!-- Include chapters -->
+  <subsection xml:id="sec-course-info">
+    <title>Course Information</title>
+
+    <p>
+      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
+      It is a [n] credit course.
+      <!-- use a description list (dl) for short items -->
+      <dl>
+        <li>
+          <title>Instructor</title>
+
+          <p>
+            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+          </p>
+        </li>
+
+        <li>
+          <title>Student Hours</title>
+
+          <p>
+            TBD
+          </p>
+        </li>
+
+        <li>
+          <title>Class meets</title>
+
+          <p>
+            course times and location.
+          </p>
+        </li>
+
+        <li>
+          <title>Course Description</title>
+
+          <p>
+            course description from catalog
+          </p>
+        </li>
+
+        <li>
+          <title>Prerequisite</title>
+
+          <p>
+            list of prerequisites
+          </p>
+        </li>
+
+        <li>
+          <title>Textbook and course materials</title>
+
+          <p>
+            <pubtitle>textbook name</pubtitle>
+            by textbook author.
+          </p>
+        </li>
+      </dl>
+    </p>
+
+  <!-- Use paragraphs to break apart subsections -->
+    <paragraphs>
+      <title>Course Overview</title>
+
+      <p>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <!-- Other subsections for larger dividers -->
+  <subsection xml:id="sec-assessments">
+    <title>Assessments and Grades</title>
+
+    <p>
+    </p>
+  </subsection>
+</section>
+      <!-- Other documents could go here, like a schedule, project description, etc. -->
+    </chapter>
+
+    <chapter xml:id="course-notes">
+      <title>Course Notes</title>
+
+      <introduction>
+        <p>
+          TEST: The following notes are intended to remind you what we covered each week.
+          They are not a substitute for attending class and not a substitute for reading the textbook.
+        </p>
+      </introduction>
+
+      <section xml:id="notes-week-01">
+  <title>Week 1</title>
+
+  <introduction>
+    <p>
+      This is an outline of the topics we covered in the first week of class.
+    </p>
+  </introduction>
+
+  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+  <subsection>
+    <title>Monday 8/22</title>
+
+    <p>
+    </p>
+  </subsection>
+
+
+  <subsection>
+    <title>Wednesday 8/24</title>
+
+    <p>
+    </p>
+  </subsection>
+
+
+  <subsection>
+    <title>Friday 8/26</title>
+
+    <p>
+    </p>
+  </subsection>
+</section>
+      <section xml:id="notes-week-02">
+  <title>Week 2</title>
+
+  <subsection>
+    <title>Monday</title>
+
+    <p>
+    </p>
+  </subsection>
+
+
+  <subsection>
+    <title>Wednesday</title>
+
+    <p>
+    </p>
+  </subsection>
+
+
+  <subsection>
+    <title>Friday</title>
+
+    <p>
+    </p>
+  </subsection>
+</section>
+      <!-- etc. -->
+
+    </chapter>
+
+
+    <chapter xml:id="activities">
+      <title>In-Class Activities</title>
+
+      <introduction>
+        <p>
+          These are copies of the in-class activities distributed during the semester.
+        </p>
+      </introduction>
+
+      <!-- Remove the example and replace with your own activities -->
+      <worksheet xml:id="activity-01-intro-activity">
+  <title>Introduction Activity</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This is the introduction to the activity.
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        This is the first exercise.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+
+      <!-- Add more xi:include files here to include them in the main course -->
+    </chapter>
+
+    <chapter xml:id="handouts">
+      <title>Handouts</title>
+      <!-- Include handouts -->
+      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+    </chapter>
+
+    <chapter xml:id="homework">
+      <title>Homework</title>
+
+      <!-- Include homework files -->
+      <!--<xi:include href="./homework/homework01.ptx"/>-->
+
+    </chapter>
+
+    <!-- Include additional chapters for other categories -->
+
+    </book>
+  </pretext>
