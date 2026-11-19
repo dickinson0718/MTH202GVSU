@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo><directories external="../assets"/></docinfo>
+  <slideshow>
+    <title>Calculus 2: Day Plan</title>
+    <subtitle>Section 5.1, Constructing accurate graphs of antiderivatives</subtitle>
+    <frontmatter>
+      <bibinfo>
+        <author><personname>Your Name</personname></author>
+        <event>Calculus 2, Week 11, Day 1 (sample)</event>
+      </bibinfo>
+      <titlepage><titlepage-items/></titlepage>
+    </frontmatter>
+
+    <section>
+      <title>Class Logistics</title>
+      <slide>
+        <title>Announcements</title>
+        <p><ul>
+          <li>Sample: Homework on Section 4.4 is due Friday at 5 pm.</li>
+          <li>Sample: Quiz on Chapter 4 is next Monday.</li>
+          <li>Sample: Office hours are Tuesday and Thursday, 2 to 3 pm.</li>
+        </ul></p>
+      </slide>
+      <slide>
+        <title>Plan for Today</title>
+        <p><ol>
+          <li>Warm-up: recall the Total Change Theorem (5 min)</li>
+          <li>Read and discuss the introduction to Section 5.1 (5 min)</li>
+          <li>Preview Activity 5.1.1 (15 min)</li>
+          <li>Whole-class debrief (10 min)</li>
+          <li>Activity 5.1.2 (15 min)</li>
+        </ol></p>
+        <p>Book: <url href="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html">Active Calculus, Section 5.1</url></p>
+      </slide>
+    </section>
+
+    <section>
+      <title>Three Ways to Point to One Paragraph</title>
+      <slide>
+        <title>Way 1: Plain Link</title>
+        <p>Read the second paragraph of Section 5.1.1, which looks back at Section 4.1 and the Total Change Theorem:</p>
+        <p><url href="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html#sec-5-1-antid-graphs-3-2">Section 5.1.1, second paragraph</url></p>
+      </slide>
+      <slide>
+        <title>Way 2: Screenshot That Is a Link</title>
+        <p><url href="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html#sec-5-1-antid-graphs-3-2"><image source="paragraph-screenshot.png" width="85%"><description>Screenshot of the second paragraph of Section 5.1.1 of Active Calculus. It recalls that Section 4.1 started from a moving object's velocity to learn about its position, and that the Total Change Theorem says the total change in f over an interval from a to b equals the net signed area between the graph of f prime and the x-axis. Select to open the paragraph in the book. (Sample text: paste the paragraph's exact words here if you want it read verbatim.)</description></image></url></p>
+      </slide>
+      <slide>
+        <title>Way 3: Embedded Preview</title>
+        <p><interactive iframe="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html#sec-5-1-antid-graphs-3-2" width="80%" aspect="2:1" xml:id="embed-ac-51"/></p>
+        <p>No preview? <url href="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html#sec-5-1-antid-graphs-3-2">Open the paragraph in the book</url>.</p>
+      </slide>
+    </section>
+
+    <section>
+      <title>Our Work</title>
+      <slide>
+        <title>Preview Activity 5.1.1: Handwriting Space</title>
+        <p><url href="https://activecalculus.org/single2e/sec-5-1-antid-graphs.html#PA-5-1">Preview Activity 5.1.1 in the book</url></p>
+        <p><image source="handwriting-space.png" width="70%"><description>Blank space for handwritten work on Preview Activity 5.1.1, written during class. Typed solution: see the slide titled Typed Solution, Preview Activity 5.1.1, linked below this image.</description></image></p>
+        <p>Typed solution: <xref ref="sol-pa-511"/></p>
+      </slide>
+      <slide xml:id="sol-pa-511">
+        <title>Typed Solution: Preview Activity 5.1.1</title>
+        <p><ul>
+          <li>Draft for your review. The graph given is of <m>f'</m>, with <m>f(0)=1</m>.</li>
+          <li>Increasing on <m>(0,\tfrac32)</m> and <m>(4,6)</m>; decreasing on <m>(\tfrac32,4)</m>; constant for <m>x\le 0</m> and <m>x\ge 6</m>.</li>
+          <li>Concave up on <m>(0,1)</m> and <m>(3,5)</m>; concave down on <m>(1,3)</m> and <m>(5,6)</m>.</li>
+          <li>Relative maximum at <m>x=\tfrac32</m>; relative minimum at <m>x=4</m>.</li>
+          <li><m>f(1)=\tfrac32,\ f(2)=\tfrac32,\ f(3)=-\tfrac12,\ f(4)=-2,\ f(5)=-\tfrac12,\ f(6)=1</m>.</li>
+        </ul></p>
+      </slide>
+    </section>
+  </slideshow>
+</pretext>

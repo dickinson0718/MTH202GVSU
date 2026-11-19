@@ -33,8 +33,26 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
+      
       <!-- etc. -->
+    </chapter>
 
+    <chapter xml:id="course-dailySlides">
+
+      <title>Course Daily Slides</title>
+
+      <introduction>
+        <p>
+          The following slides are intended to remind you what we covered each day.
+          They are not a substitute for attending class and not a substitute for reading the textbook.
+        </p>
+      </introduction>
+        <xi:include href="./slides/slides.ptx"/>
+        <!--<xi:include href="./slides/day1Notes.ptx"/>-->
+      
+      <!-- etc. -->
+   
+      
     </chapter>
 
 
@@ -49,6 +67,7 @@
 
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./activities/01-intro-activity.ptx"/>
+      <xi:include href="./activities/mth202-first-day-review.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
